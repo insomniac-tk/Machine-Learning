@@ -22,7 +22,7 @@ def get_freq(file_name):
 	fo.close()
 	return w_frequncies
 
-fname = raw_input("Enter file name(skip extension):")
+fname = raw_input("Enter file name(xyz.txt):")
 data=get_freq(fname)
 
 plt.bar(range(len(data)), list(data.values()), align='center')
