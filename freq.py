@@ -29,9 +29,3 @@ plt.bar(range(len(data)), list(data.values()), align='center')
 plt.xticks(range(len(data)), list(data.keys()))
 plt.show()
 print data['e']
-"""
-plt.hist(data)
-plt.title("Gaussian Histogram")
-plt.xlabel("Value")
-plt.ylabel("Frequency")
-plt.show()"""
