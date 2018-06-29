@@ -28,4 +28,3 @@ data=get_freq(fname)
 plt.bar(range(len(data)), list(data.values()), align='center')
 plt.xticks(range(len(data)), list(data.keys()))
 plt.show()
-print data['e']
