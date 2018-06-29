@@ -8,7 +8,7 @@ def freq(x):
 	word_count={}
 	for i in range(len(x)):
 		sym = x[i]
-		if(sym>'a' and sym<'z' or sym>'A' and sym<'Z'):
+		if(sym>='a' and sym<='z' or sym>='A' and sym<='Z'):
 			if(sym in word_count.keys()):
 				word_count[sym]+=1
 			else:
