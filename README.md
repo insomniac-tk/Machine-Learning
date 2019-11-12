@@ -1,1 +1,1 @@
-# This is a repo for all things related to Machine Learning   
+# This is a repo for all of my work in Machine Learning 
